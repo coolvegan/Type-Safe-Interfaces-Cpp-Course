@@ -18,11 +18,16 @@ v1 = v2; //v1 enthält 10.f
 
 #### Manueller Zugriff
 ##### std::holds_alternative<T>
-die aktive Auswahl erfragen/prüfen
+* die aktive Auswahl erfragen/prüfen
 ##### std::get<T>
-die aktive Auswahl auswählen. Wenn T ungleich aktiver Auswahll dann Exception Throw
+* die aktive Auswahl auswählen. Wenn T ungleich aktiver Auswahll dann Exception Throw
 ##### std::get_if<T>
-die aktive Auswahl bedingt als Pointer zurück bekommen
+* die aktive Auswahl bedingt als Pointer zurück bekommen
 
 
-
+## Use Cases
+* Typsichere Fehlerbehandlungen als Alternative zu Error Codes und Exceptions
+* Zustandamschine
+  * Verbindung zum Server, Character in Videospielen
+*  Rekursive Datenstrukturen
+  * JSON, XML, AST, Mathematische Ausdrücke
