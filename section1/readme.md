@@ -29,5 +29,5 @@ v1 = v2; //v1 enthält 10.f
 * Typsichere Fehlerbehandlungen als Alternative zu Error Codes und Exceptions
 * Zustandamschine
   * Verbindung zum Server, Character in Videospielen
-*  Rekursive Datenstrukturen
+* Rekursive Datenstrukturen
   * JSON, XML, AST, Mathematische Ausdrücke
