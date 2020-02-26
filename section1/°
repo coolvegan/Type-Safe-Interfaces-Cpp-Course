@@ -23,6 +23,7 @@ die aktive Auswahl erfragen/prüfen
 die aktive Auswahl auswählen. Wenn T ungleich aktiver Auswahll dann Exception Throw
 ##### std::get_if<T>
 die aktive Auswahl bedingt als Pointer zurück bekommen
+Wenn T ungleich aktiver Auswahl, dann nullptr
 
 
 
