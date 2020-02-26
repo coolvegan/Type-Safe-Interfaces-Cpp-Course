@@ -18,4 +18,13 @@ int main()
   kunde.print();
   Kunde kunde2{"Lucky", "Luke", true, "0144/388448"};
   kunde2.print();
+
+  //std::copy
+  kunde = kunde2;
+  kunde.print();
+
+  //Ownership wegnehmen
+  //kunde2's zustand wird inkonsistent
+  kunde = std::move(kunde2);
+  kunde2.print();
 }
