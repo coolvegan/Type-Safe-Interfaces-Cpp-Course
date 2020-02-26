@@ -2,6 +2,8 @@
 #include <variant>
 #include <string>
 
+//Ausgabe übernimmt die Rolle des Visitors und benötigt für
+//jeden Typ von something ein vordefiniertes Verhalten
 struct ausgabe
 {
   void operator()(int x) { std::cout << x << " ist vom Typ int" << std::endl; }
