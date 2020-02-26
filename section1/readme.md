@@ -14,4 +14,5 @@ using variant = std::variant<int, float>;
 variant v1{5};
 variant v2{10.f};
 
-v1 = v2; v1 enthält 10.f
+v1 = v2; //v1 enthält 10.f
+
