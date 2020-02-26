@@ -1,17 +1,10 @@
-# Type-Safe-Interfaces-Cpp-Course
+# Type Safe Interfaces
+## Udemy Lecture
+https://www.udemy.com/course/type-safe-interfaces-with-modern-c-v/
 
-________________________________________________________________________________
-|         |                   |                             |                   |
-|_________|_struct____________|__enum class_________________|_std::variant______|
-|         |                   |                             |                   |
-| Konzept |Zustandsaggregation| Auswahl einer Möglichkeit   | Auswahl von Typen |  
-|         |diverser Datentypen| von Möglichkeit             |                   |
-|_________|___________________|_____________________________|___________________|
-|         |Die Anzahl der     | Die Anzahl der max. Zustände| wie enum class    |
-| Gattung |max. Zustände ist  | ist gleich der Summe der    |                   |
-|         |gleich dem         | möglichen Zuständer ihrer   |                   |
-|         |Produkt der        | gekapselten Member          |                   |
-|         |möglichen Zustände |                             |                   |
-|         |aller gekapselten  |                             |                   |
-|         |Typen              |                             |                   |
-|_________|___________________|_____________________________|___________________|
+### Intro
+|    | Struct | Enum Class | std::variant |
+|-----| -------- | -------- | -------- |
+| Konzept | Zustandsaggregation diverser Datentypen   | Selektion eines Zustands von beliebig vielen | Selektion eines Typs von diverseren Typen   |
+| Beschreibung | Die Anzahl der max. Zustände ergibt sich aus dem Produkt der möglichen Zustände aller gekapselten Datentypen | Die Anzahl der möglichen Zustände ergibt sich aus der Summe der möglichen Zustände in den gekapselten Datentypen   | Die Anzahl der möglichen Zustände ergibt sich aus der Summe der möglichen Zustände in den gekapselten Datentypen  |
+
